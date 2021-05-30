@@ -1,0 +1,13 @@
+PASSWORD CRYPTOVAULT
+
+Steps to follow to start the project and use it correctly:
+
+1. download ganache
+2. start ganache.AppImage or ganache.exe
+3. execute in terminal : npm install
+4. execute in terminal : truffle migrate --reset
+5. execute in terminal : npm start
+6. open metamask and modify the custom domain's port to 7545
+7. copy private key of a ganache address (not the first one)
+8. import that account into your metamask then connect to it
+9. refresh the page and you are done :)
